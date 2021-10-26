@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+#
+# Set default values.
+---
+values:
+  pkg:
+    name: backupninja
+  rootgroup: root
+  config: '/etc/backupninja'
+  service:
+    name: backupninja
+  subcomponent:
+    config: '/etc/backupninja-subcomponent-formula.conf'
+  # Just here for testing
+  added_in_defaults: defaults_value
+  winner: defaults
+...
